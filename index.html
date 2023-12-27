@@ -1,23 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- link the css file -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="utlities.css">
 
-    <!-- link the tailwind css and js  -->
+    <!-- remix icon cdn  -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css" rel="stylesheet" />
+
+    <!-- link the tailwind cdn   -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Document</title>
+
+    <!-- favicon icon -->
+    <link rel="icon" type="image/x-icon" href="/img/logo.png">
+    <title class="font-mono font-bold">Harmony -> Web Player: Music for everyone </title>
 </head>
-<body>
-      <h1 class="bg-slate-300">Hello world</h1>
 
+<body class="bg-black text-white">
 
+    <div class="containar bg-black f ">
+        <div class="left">
+            <div class="home bg-g round m-3 ">
+                <div class="logo w-6 f font-sans m-1 ml-1 text-white"><img class="invert" src="/img/logo.png"
+                        alt="">Harmony</div>
+                <ul>
+                    <li><img class="invert" src="/img/home-4-fill.svg" alt="Home">Home</li>
+                    <li><img class="invert" src="/img/search-line.svg" alt="Search">Search</li>
+
+                </ul>
+            </div>
+            <div class="library  bg-g round m-3  text-white">
+                <div class="handing">
+                    <img class="w-6 font-bold invert" src="/img//playlist.png" alt="">
+                    <h2>Your Library</h2>
+                    <img class="  add invert" src="/img/add-line.svg" alt="">
+                </div>
+                <div class="footer">
+                    <div><a href="#">Legal</a></div>
+                    <!-- <div><a href="#">Privacy Center</a></div> -->
+                    <div><a href="#">Privacy Policy</a></div>
+                    <div><a href="#">Cookies</a></div>
+                    <div><a href="#">About Ads</a></div>
+                    <!-- <div><a href="#">Accessibiliy</a></div> -->
+
+                </div>
+            </div>
+
+        </div>
+        <div class="right bg-g round ">
+            <div class="header">
+                <div class="nav">
+                    <i class="ri-arrow-left-s-line "></i>
+                    <i class="ri-arrow-right-s-line "></i>
+                </div>
+                <div class="button">
+                    <button>Sign_Up</button>
+                    <button>Login</button>
+
+                </div>
+            </div>
+            <div class="song-palylist">
+                <h1>Harmony Playlists</h1>
+                <div class="cardContainar">
+                    <div class="card"></div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 
 
     <!-- connect js file -->
     <script src="script.js"></script>
 </body>
+
 </html>

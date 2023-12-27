@@ -1,3 +1,97 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200&family=Poppins&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.left{
+    width: 30vw;
+    padding: 10px;
+ 
+}
+.right{
+    width: 75vw;
+    margin: 22px 0;
+    /* padding: 10px; */
+}
+.home{
+    padding: 10px;
+}
+.home .logo{
+    display: flex;
+    gap: 7px;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: 'Times New Roman', Times, serif;
+     
+}
+.home ul li{
+  width: 26px;
+  list-style: nono;
+  display: flex;
+  gap: 13px;
+  color: white;
+  padding-top: 14px;
+  font-weight: bold;
+  font-size: 14px;
+}
+.library{
+    padding: 10px 10px;
+    font-size: 15px;
+    font-weight: 500;
+    min-height: 80vh;
+    position: relative;
+}
+.handing{
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+ .handing .add{
+  width: 15px;   
+ }
+
+ .footer{
+    display: flex;
+    font-size: 10px;
+    /* color: gray; */
+    gap: 11px;
+    padding: 5px 5px;
+    position: absolute;
+    bottom: 0;
+    align-items: center;
+    left: 23px;
+ }
+ .footer a{
+    color: gray;
+    font-size: 10px;
+ }
+ .footer div{
+    display: inline-block;
+
+ }
+
+ .header{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(34, 34, 34);
+    border-radius: 7px;
+
+ }
+ .header > *{
+    padding: 17px;
+ }
+ 
+ .song-palylist{
+    padding: 8px;
+    font-size: large;
+    color: rgb(253, 253, 253);
+    font-weight: bold;
+ }
+  
