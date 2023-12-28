@@ -2,35 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;1,100;1,200&family=Poppins&family=Roboto:ital,wght@0,400;0,500;0,700;1,400;1,700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
 
 }
 
-.left{
-    width: 30vw;
-    padding: 10px;
- 
+.left {
+  width: 30vw;
+  padding: 10px;
+
 }
-.right{
-    width: 75vw;
-    margin: 22px 0;
-    /* padding: 10px; */
+
+.right {
+  width: 75vw;
+  margin: 22px 0;
+  /* padding: 10px; */
 }
-.home{
-    padding: 10px;
+
+.home {
+  padding: 10px;
 }
-.home .logo{
-    display: flex;
-    gap: 7px;
-    font-size: 15px;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-     
+
+.home .logo {
+  display: flex;
+  gap: 7px;
+  font-size: 15px;
+  font-weight: 600;
+  /* font-family: 'Times New Roman', Times, serif; */
+
+
 }
-.home ul li{
+
+.home ul li {
   width: 26px;
   list-style: nono;
   display: flex;
@@ -40,50 +46,55 @@
   font-weight: bold;
   font-size: 14px;
 }
-.library{
-    padding: 10px 10px;
-    font-size: 15px;
-    font-weight: 500;
-    min-height: 80vh;
-    position: relative;
+
+.library {
+  padding: 10px 10px;
+  font-size: 15px;
+  font-weight: 500;
+  min-height: 80vh;
+  position: relative;
 }
-.handing{
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-    align-items: center;
+
+.handing {
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
- .handing .add{
-  width: 15px;   
- }
 
- .footer{
-    display: flex;
-    font-size: 10px;
-    /* color: gray; */
-    gap: 11px;
-    padding: 5px 5px;
-    position: absolute;
-    bottom: 0;
-    align-items: center;
-    left: 23px;
- }
- .footer a{
-    color: gray;
-    font-size: 10px;
- }
- .footer div{
-    display: inline-block;
+.handing .add {
+  width: 15px;
+}
 
- }
+.footer {
+  display: flex;
+  font-size: 10px;
+  /* color: gray; */
+  gap: 11px;
+  padding: 5px 5px;
+  position: absolute;
+  bottom: 0;
+  align-items: center;
+  left: 23px;
+}
 
- .header{
-    display: flex;
-    justify-content: space-between;
-    background-color: rgb(34, 34, 34);
-    border-radius: 7px;
+.footer a {
+  color: gray;
+  font-size: 10px;
+}
 
- }
+.footer div {
+  display: inline-block;
+
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(34, 34, 34);
+  border-radius: 7px;
+
+}
 
 
 .text {
@@ -97,84 +108,112 @@
   display: grid;
   place-items: center;
 }
- 
- .button-s-l.btn {
-    padding: 1em 1.2em;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: 2.5px;
-    font-weight: 400;
-    color: #000;
-    background-color: #fff;
-    border: none;
-    border-radius: 45px;
-    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
-    transition: all 0.3s ease 0s;
-    cursor: pointer;
-    outline: none;
-  }
-  
- .button-s-l .btn:hover {
-    background-color: #23c483;
-    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
-    color: #fff;
-    transform: translateY(-7px);
-  }
-  
-  .button-s-l.btn:active {
-    transform: translateY(-1px);
-  }
 
- .header > *{
-    padding: 17px;
- }
- 
- .song-palylist{
-    padding: 8px;
-    font-size: large;
-    color: rgb(253, 253, 253);
-    font-weight: bold;
-     
- }
- .song-palylist h3 a{
-    float: right;
-     position: relative;
-     bottom: 22px;
-     right: 10px;
-     font-size: 15px;
-     cursor: pointer;
+.btn {
+  padding: 1em 1.2em;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 400;
+  color: #000;
+  background-color: #fff;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  width: 80px;
+  height: 40px;
+  font-weight: 900;
+  /* border-radius: 100px; */
+}
 
- }
- .song-palylist h3 a:hover {
-   border-bottom:  2px solid blueviolet;
-     transition: linear 0.5ms;
-    
- }
-.cardContainar{
+.btn:hover {
+  background-color: #23c483;
+  box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+.btn:active {
+  transform: translateY(-1px);
+}
+
+#sign {
+  background-color: #131212;
+  color: white;
+}
+
+.header>* {
+  padding: 17px;
+}
+
+.song-palylist {
+  padding: 8px;
+  font-size: large;
+  color: rgb(253, 253, 253);
+  font-weight: bold;
+
+
+
+}
+
+.song-palylist h1 {
+  position: relative;
+  left: 30px;
+}
+
+.song-palylist h3 a {
+  float: right;
+  position: relative;
+  bottom: 22px;
+  right: 34.5px;
+  font-size: 15px;
+  cursor: pointer;
+
+}
+
+.song-palylist h3 a:hover {
+  border-bottom: 2px solid blueviolet;
+  transition: linear 0.5ms;
+
+}
+
+.cards {
+  overflow-y: scroll;
+  max-height: 70vh;
+}
+
+.cardContainar {
   display: flex;
   /* justify-content: center; */
-   gap: 25px;
-   padding: 22px 18px;
-   /* margin-left: 1px; */
-   background-color: #222222;
-   position: absolute;
-   top: 125px;
-   left: 345px;
+  gap: 30px;
+  padding: 22px 18px;
+  /* margin-left: 1px; */
+  background-color: #161515;
+  position: absolute;
+  top: 135px;
+  left: 355px;
+  border-radius: 5px;
+  height: 250px;
 }
-  
- .card {
+
+
+.card {
   position: relative;
-  width: 160px;
-  height: 240px;
-  box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
+  width: 150px;
+  height: 200px;
+  box-shadow: 0px 1px 13px rgba(0, 0, 0, 0.1);
   cursor: pointer;
   transition: all 120ms;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #222222;
-   
-  
+  border-radius: 10px;
+
+
 }
 
 
@@ -184,12 +223,13 @@
   padding-left: 0.2em;
   /* display: block; */
   opacity: 1;
+  border-radius: 10px;
 }
 
 
 
- 
- 
+
+
 
 /* .card:hover::after {
   bottom: 0;
@@ -200,21 +240,23 @@
   transform: scale(0.98);
 } */
 
-  
 
-.card .image img{
-   width: 155px;
-   height: 180px;
-   margin-bottom: 56px;
-   object-fit: cover;
+
+.card .image img {
+  width: 155px;
+  height: 145px;
+  margin-bottom: 56px;
+  object-fit: cover;
   border-radius: 5px;
 
 }
-.card h2{
+
+.card h2 {
   position: absolute;
   bottom: 29px;
   color: #272525;
 }
+
 .card p {
   font-size: 10px;
   position: absolute;
@@ -224,12 +266,13 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 
 }
+
 .button {
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 140px;
-  right: 6px;
+  top: 103px;
+  right: 4px;
   color: #fff;
   width: 40px;
   height: 40px;
@@ -246,17 +289,111 @@
 
 .button:is(:hover, :focus) {
   transform: scale(1.2);
-  
+
 }
- 
+
 
 @keyframes pulse {
   100% {
-    box-shadow: 0 0 0 15px rgba(193,244,246,0);
+    box-shadow: 0 0 0 15px rgba(193, 244, 246, 0);
   }
 }
 
+.playList {
+  position: relative;
+  width: 100%;
+  height: 170px;
+  top: 260px;
+  padding: 10px 10px;
+  border-radius: 10px;
+  padding: 40px 10px;
+  background-color: #89fcce;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
 
+}
 
- 
-  
+.left-play {
+  display: block;
+  position: relative;
+  /* top: 30.5px;
+  left: 337px;
+    */
+}
+
+.left-play img {
+  width: 30px;
+  /* color: whitesmoke; */
+  color: #fff;
+
+}
+
+.play-img {
+  display: block;
+  position: relative;
+  width: 60px;
+  /* left: 350px;
+   top: -30px; */
+}
+
+.right-play {
+  display: block;
+  position: relative;
+  /* bottom: 90px;
+   left: 400px; */
+}
+
+.right-play img {
+  width: 30px;
+
+}
+
+.progress-loader {
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+}
+
+.progress-loader {
+  width: 350px;
+  margin-top: 30px;
+  background: rgba(236, 236, 238, 0.253);
+  height: 3px;
+  border-radius: 7px;
+}
+
+.progress {
+  content: '';
+  width: 1px;
+  height: 6px;
+  border-radius: 7px;
+  background: rgb(32, 24, 24);
+  transition: 0.5s;
+  animation: loading1274 2s ease infinite;
+}
+
+@keyframes loading1274 {
+  0% {
+    width: 0%;
+  }
+
+  10% {
+    width: 10%;
+  }
+
+  50% {
+    width: 40%;
+  }
+
+  60% {
+    width: 60%;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
